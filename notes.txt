@@ -1,0 +1,16 @@
+STRUCTURE
+ << + = directory >>
+ << - = file      >>
+
+perceocrity.github.io
+- index.html
++ pages
+    + art
+        - index.html
+    + code
+        - index.html
++ css
+    - style.css
++ assets
+    + art
+    + code
