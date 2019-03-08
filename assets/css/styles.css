@@ -25,8 +25,13 @@ PRIMARY CONTENT || HOMEPAGE
 .content > .title {
     align-self: center;
     justify-content: center;
-    background-color: #514b86;
+    /* background-color: #514b86; */
     align-self: center;
+}
+
+.content img{
+    max-height: 200px;
+    width: auto;
 }
 
 .content > .homeIcons {
@@ -45,6 +50,7 @@ PRIMARY CONTENT || HOMEPAGE
     width: 20px;
     background-color: #cdc9fc
 }
+
 
 /*
 FOOTER CONTENT || CREDITS
