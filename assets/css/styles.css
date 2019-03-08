@@ -16,6 +16,7 @@ PRIMARY CONTENT || HOMEPAGE
 */
 .content {
     height: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,10 +30,12 @@ PRIMARY CONTENT || HOMEPAGE
     align-self: center;
 }
 
+
 .content img{
-    max-height: 200px;
+    height: 300px;
     width: auto;
 }
+
 
 .content > .homeIcons {
     width: 60%;
