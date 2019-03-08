@@ -5,5 +5,12 @@ body {
 
 .menu {
     background-color: #cdc9fc;
-    width: 90%;
+    list-style-type: None;
+    text-decoration: None;
+}
+
+#content {
+    width: 80%;
+    background-color: aqua;
+    background-image: "../images/logo.png";
 }
