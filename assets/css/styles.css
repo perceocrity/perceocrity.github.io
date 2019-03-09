@@ -23,20 +23,24 @@ PRIMARY CONTENT || HOMEPAGE
     justify-content: center;
 }
 
+/*
+For the logo and Name
+*/
 .content > .title {
+    height: 80%;
     align-self: center;
     justify-content: center;
-    /* background-color: #514b86; */
     align-self: center;
 }
 
-
-.content img{
-    height: 300px;
+.content > .title img {
+    height: 100%;
     width: auto;
 }
 
-
+/*
+For the icon list
+*/
 .content > .homeIcons {
     width: 60%;
 }
