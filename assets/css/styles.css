@@ -2,19 +2,22 @@ html, body {
 background-color: #1b154e;
 color: #cdc9fc;
 height: 100%;
+overflow: hidden;
 }
 
 /*
 HEADER CONTENT || MENU AND NAVIGATION
 */
 .header {
-    height: 10%;
+    height: 15%;
+    overflow: inherit;
 }
 
 /*
 PRIMARY CONTENT || HOMEPAGE
 */
 .content {
+    overflow: inherit;
     height: 80%;
     width: 100%;
     display: flex;
@@ -27,6 +30,7 @@ PRIMARY CONTENT || HOMEPAGE
 For the logo and Name
 */
 .content > .title {
+    /* This relies on parent attributes. */
     height: 80%;
     align-self: center;
     justify-content: center;
@@ -34,6 +38,7 @@ For the logo and Name
 }
 
 .content > .title img {
+    /* This relies on parent attributes. */
     height: 100%;
     width: auto;
 }
@@ -42,13 +47,18 @@ For the logo and Name
 For the icon list
 */
 .content > .homeIcons {
+    /* This relies on parent attributes. */
     width: 50%;
     height: 20%;
+    list-style-type: none;
 }
 
 .content > .homeIcons ul{
+    /* This relies on parent attributes. */
+    list-style-type: inherit;
     width: 100%;
     height: 100%;
+
     display: flex;
     flex-direction: row;
     align-content: space-between;
@@ -56,12 +66,13 @@ For the icon list
 }
 
 .content > .homeIcons ul li {
+    /* This relies on parent attributes. */
     width: 5%;
     height: 5%;
-    background-color: #cdc9fc;
 }
 
 .content > .homeIcons ul li img {
+    /* This relies on parent attributes. */
     width: 100%;
     height: auto;
 }
@@ -71,5 +82,12 @@ For the icon list
 FOOTER CONTENT || CREDITS
 */
 .footer {
-    height: 10%;
+    height: 5%;
+    text-align: center;
+}
+
+.footer div {
+    text-align: center;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
 }
