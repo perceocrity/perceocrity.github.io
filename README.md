@@ -10,7 +10,7 @@ CURRENT ISSUES TO DEAL WITH
 ---
 - styles.css : 69 (nice)
 - Title animation: do it
-- Do logos
+- Do logos (actually draw them & transitions)
 - Figure out what to put in the menu
 
 

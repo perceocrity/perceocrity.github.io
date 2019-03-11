@@ -5,6 +5,10 @@ height: 100%;
 overflow: hidden;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 /*
 HEADER CONTENT || MENU AND NAVIGATION
 */
@@ -46,14 +50,6 @@ For the icon list
 */
 .content > .homeIcons {
     /* This relies on parent attributes. */
-    width: 100%;
-    height: 100%;
-
-    background-color: bisque;
-}
-
-.content > .homeIcons ul{
-    /* This relies on parent attributes. */
     list-style-type: none;
     width: 50%;
     height: 20%;
@@ -64,18 +60,16 @@ For the icon list
     /* For the items in the list*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: #ac9273b3;
-    /* strange things with sizing here... */
+    justify-content: space-evenly;
 }
 
-.content > .homeIcons ul li {
+.content > .homeIcons li {
     /* This relies on parent attributes. */
     width: 5%;
     height: 5%;
 }
 
-.content > .homeIcons ul li img {
+.content > .homeIcons li img {
     /* This relies on parent attributes. */
     width: 100%;
     height: auto;
