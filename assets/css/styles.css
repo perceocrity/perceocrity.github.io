@@ -67,14 +67,32 @@ For the icon list
     /* This relies on parent attributes. */
     width: 5%;
     height: 5%;
+
+    position: relative;
 }
 
 .content > .homeIcons li img {
     /* This relies on parent attributes. */
     width: 100%;
     height: auto;
+    
+    position: absolute;
+
+    /*
+    ANIMATIONS
+    */
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
 }
 
+.content > .homeIcons li img.top {
+    z-index: 1;
+}
+.content > .homeIcons li img.top:hover {
+    opacity: 0;
+}
 
 /*
 FOOTER CONTENT || CREDITS
